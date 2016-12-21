@@ -234,6 +234,7 @@
 		pinctrl-0 = <&gauge_alarm_default>;
 		pinctrl-1 = <&gauge_alarm_suspend>;
 		qcom,pm8916-vadc = <&pm8916_vadc>;*/
+		qcom,fg-adc_tm = <&pm8916_adc_tm>;
 	};
 };
 
