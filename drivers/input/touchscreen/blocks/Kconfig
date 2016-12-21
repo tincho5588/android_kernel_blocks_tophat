@@ -1,0 +1,8 @@
+#
+# Blocks Touchscreen driver configuration
+#
+
+config TOUCHSCREEN_BLOCKS
+        tristate "Blocks FTS i2c touchscreen"
+		help
+		This enables support for Focaltech I2C based touchscreens.
